@@ -1,6 +1,6 @@
 {
   "name": "node-platforms",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "List of platforms supported by Node",
   "license": "MIT",
   "repository": "sindresorhus/node-platforms",
