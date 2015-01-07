@@ -1,0 +1,33 @@
+{
+  "name": "node-platforms",
+  "version": "0.0.0",
+  "description": "List of platforms supported by Node",
+  "license": "MIT",
+  "repository": "sindresorhus/node-platforms",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "node",
+    "platform",
+    "os",
+    "support",
+    "supported",
+    "list",
+    "array"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
