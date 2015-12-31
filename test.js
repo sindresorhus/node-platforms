@@ -1,8 +1,6 @@
-'use strict';
-var test = require('ava');
-var nodePlatforms = require('./');
+import test from 'ava';
+import x from './';
 
-test(function (t) {
-	t.assert(nodePlatforms.indexOf(process.platform) !== -1);
-	t.end();
+test(t => {
+	t.true(x.indexOf(process.platform) !== -1);
 });
