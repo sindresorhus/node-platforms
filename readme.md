@@ -1,6 +1,6 @@
 # node-platforms [![Build Status](https://travis-ci.org/sindresorhus/node-platforms.svg?branch=master)](https://travis-ci.org/sindresorhus/node-platforms)
 
-> List of [platforms](http://nodejs.org/api/process.html#process_process_platform) supported by Node
+> List of [platforms](https://nodejs.org/api/process.html#process_process_platform) supported by Node.js
 
 
 ## Install
@@ -13,18 +13,25 @@ $ npm install --save node-platforms
 ## Usage
 
 ```js
-var nodePlatforms = require('node-platforms');
+const nodePlatforms = require('node-platforms');
 
-console.log(nodePlatforms);
-//=> ['darwin', 'freebsd', ...]
+console.log(nodePlatforms());
+//=> Set {'darwin', 'freebsd'}
 ```
+
+
+## API
+
+### nodePlatforms()
+
+Returns a `Set` with platforms.
 
 
 ## Related
 
-See [`archs`](https://github.com/sindresorhus/archs) for a list of processor architectures supported by Node.
+- [archs](https://github.com/sindresorhus/archs) - List of processor architectures supported by Node.js
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

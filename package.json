@@ -1,7 +1,7 @@
 {
   "name": "node-platforms",
   "version": "1.0.0",
-  "description": "List of platforms supported by Node",
+  "description": "List of platforms supported by Node.js",
   "license": "MIT",
   "repository": "sindresorhus/node-platforms",
   "author": {
@@ -10,10 +10,10 @@
     "url": "sindresorhus.com"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -21,13 +21,20 @@
   "keywords": [
     "node",
     "platform",
+    "platforms",
     "os",
-    "support",
+    "operating",
+    "system",
+    "supports",
     "supported",
     "list",
     "array"
   ],
   "devDependencies": {
-    "ava": "*"
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
   }
 }

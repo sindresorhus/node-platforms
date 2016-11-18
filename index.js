@@ -1,8 +1,11 @@
 'use strict';
-module.exports = [
+module.exports = () => new Set([
+	'aix',
 	'darwin',
 	'freebsd',
 	'linux',
+	'openbsd',
 	'sunos',
-	'win32'
-];
+	'win32',
+	'android'
+]);

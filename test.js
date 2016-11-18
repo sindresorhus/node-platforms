@@ -1,6 +1,6 @@
 import test from 'ava';
-import x from './';
+import m from './';
 
 test(t => {
-	t.true(x.indexOf(process.platform) !== -1);
+	t.true(m().has(process.platform));
 });
