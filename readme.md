@@ -4,14 +4,14 @@
 
 ## Install
 
-```
-$ npm install --save node-platforms
+```sh
+npm install node-platforms
 ```
 
 ## Usage
 
 ```js
-const nodePlatforms = require('node-platforms');
+import nodePlatforms from 'node-platforms';
 
 console.log(nodePlatforms());
 //=> Set {'darwin', 'freebsd'}

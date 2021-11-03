@@ -1,40 +1,39 @@
 {
-  "name": "node-platforms",
-  "version": "2.0.0",
-  "description": "List of platforms supported by Node.js",
-  "license": "MIT",
-  "repository": "sindresorhus/node-platforms",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "https://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "node",
-    "platform",
-    "platforms",
-    "os",
-    "operating",
-    "system",
-    "supports",
-    "supported",
-    "list",
-    "array"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "node-platforms",
+	"version": "2.0.0",
+	"description": "List of platforms supported by Node.js",
+	"license": "MIT",
+	"repository": "sindresorhus/node-platforms",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"node",
+		"platform",
+		"platforms",
+		"os",
+		"operating",
+		"system",
+		"supports",
+		"supported",
+		"list"
+	],
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.46.3"
+	}
 }
